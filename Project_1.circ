@@ -73,55 +73,55 @@
     <comp lib="1" loc="(220,210)" name="NOT Gate"/>
     <comp lib="1" loc="(220,400)" name="NOT Gate"/>
     <comp lib="1" loc="(220,600)" name="NOT Gate"/>
-    <comp lib="1" loc="(490,200)" name="AND Gate">
-      <a name="inputs" val="3"/>
-      <a name="size" val="70"/>
-    </comp>
-    <comp lib="1" loc="(490,300)" name="AND Gate">
-      <a name="inputs" val="3"/>
-      <a name="size" val="70"/>
-    </comp>
-    <comp lib="1" loc="(490,390)" name="AND Gate">
-      <a name="inputs" val="3"/>
-      <a name="size" val="70"/>
-    </comp>
-    <comp lib="1" loc="(490,490)" name="AND Gate">
-      <a name="inputs" val="3"/>
-      <a name="size" val="70"/>
-    </comp>
-    <comp lib="1" loc="(490,600)" name="AND Gate">
-      <a name="inputs" val="3"/>
-      <a name="size" val="70"/>
-    </comp>
-    <comp lib="1" loc="(740,390)" name="OR Gate">
+    <comp lib="1" loc="(500,200)" name="NAND Gate">
       <a name="inputs" val="5"/>
       <a name="size" val="70"/>
     </comp>
-    <comp lib="8" loc="(45,567)" name="Text">
-      <a name="text" val="C"/>
+    <comp lib="1" loc="(500,300)" name="NAND Gate">
+      <a name="inputs" val="5"/>
+      <a name="size" val="70"/>
     </comp>
-    <comp lib="8" loc="(46,376)" name="Text">
-      <a name="text" val="B"/>
+    <comp lib="1" loc="(500,390)" name="NAND Gate">
+      <a name="inputs" val="5"/>
+      <a name="size" val="70"/>
     </comp>
-    <comp lib="8" loc="(49,194)" name="Text">
+    <comp lib="1" loc="(500,490)" name="NAND Gate">
+      <a name="inputs" val="5"/>
+      <a name="size" val="70"/>
+    </comp>
+    <comp lib="1" loc="(500,600)" name="NAND Gate">
+      <a name="inputs" val="5"/>
+      <a name="size" val="70"/>
+    </comp>
+    <comp lib="1" loc="(760,390)" name="NAND Gate">
+      <a name="inputs" val="5"/>
+      <a name="size" val="70"/>
+    </comp>
+    <comp lib="8" loc="(45,190)" name="Text">
       <a name="text" val="A"/>
     </comp>
-    <comp lib="8" loc="(512,290)" name="Text">
-      <a name="text" val="A'BC"/>
+    <comp lib="8" loc="(45,375)" name="Text">
+      <a name="text" val="B"/>
     </comp>
-    <comp lib="8" loc="(513,188)" name="Text">
+    <comp lib="8" loc="(45,565)" name="Text">
+      <a name="text" val="C"/>
+    </comp>
+    <comp lib="8" loc="(510,185)" name="Text">
       <a name="text" val="ABC"/>
     </comp>
-    <comp lib="8" loc="(514,587)" name="Text">
+    <comp lib="8" loc="(510,290)" name="Text">
+      <a name="text" val="A'BC"/>
+    </comp>
+    <comp lib="8" loc="(510,585)" name="Text">
       <a name="text" val="A'B'C"/>
     </comp>
-    <comp lib="8" loc="(515,481)" name="Text">
-      <a name="text" val="AB'C"/>
-    </comp>
-    <comp lib="8" loc="(516,379)" name="Text">
+    <comp lib="8" loc="(515,375)" name="Text">
       <a name="text" val="AB'C'"/>
     </comp>
-    <comp lib="8" loc="(891,423)" name="Text">
+    <comp lib="8" loc="(515,480)" name="Text">
+      <a name="text" val="AB'C"/>
+    </comp>
+    <comp lib="8" loc="(890,420)" name="Text">
       <a name="text" val="C+AB'"/>
     </comp>
     <wire from="(150,210)" to="(190,210)"/>
@@ -160,17 +160,25 @@
     <wire from="(220,570)" to="(220,600)"/>
     <wire from="(220,570)" to="(420,570)"/>
     <wire from="(220,600)" to="(420,600)"/>
-    <wire from="(490,200)" to="(670,200)"/>
-    <wire from="(490,300)" to="(670,300)"/>
-    <wire from="(490,390)" to="(670,390)"/>
-    <wire from="(490,490)" to="(670,490)"/>
-    <wire from="(490,600)" to="(670,600)"/>
+    <wire from="(490,300)" to="(500,300)"/>
+    <wire from="(490,390)" to="(500,390)"/>
+    <wire from="(490,490)" to="(500,490)"/>
+    <wire from="(490,600)" to="(500,600)"/>
+    <wire from="(500,200)" to="(670,200)"/>
+    <wire from="(500,300)" to="(670,300)"/>
+    <wire from="(500,390)" to="(680,390)"/>
+    <wire from="(500,490)" to="(670,490)"/>
+    <wire from="(500,600)" to="(670,600)"/>
     <wire from="(670,200)" to="(670,300)"/>
     <wire from="(670,300)" to="(670,370)"/>
     <wire from="(670,370)" to="(670,380)"/>
+    <wire from="(670,370)" to="(680,370)"/>
+    <wire from="(670,380)" to="(680,380)"/>
     <wire from="(670,400)" to="(670,410)"/>
+    <wire from="(670,400)" to="(680,400)"/>
     <wire from="(670,410)" to="(670,490)"/>
+    <wire from="(670,410)" to="(680,410)"/>
     <wire from="(670,490)" to="(670,600)"/>
-    <wire from="(740,390)" to="(840,390)"/>
+    <wire from="(760,390)" to="(840,390)"/>
   </circuit>
 </project>
